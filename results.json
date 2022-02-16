@@ -1,6 +1,8 @@
 {
   "excluded": [],
-  "failed": [
+  "failed": [],
+  "invalid": [],
+  "passed": [
     {
       "describe": "parse_file/1",
       "file": "/Users/leandro/Desenvolvimento/Elixir/elixir-ignite-template-gerando-rel/test/parser_test.exs",
@@ -11,19 +13,17 @@
     {
       "describe": "build/1",
       "file": "/Users/leandro/Desenvolvimento/Elixir/elixir-ignite-template-gerando-rel/test/gen_report_test.exs",
-      "line": 16,
+      "line": 10,
       "module": "Elixir.GenReportTest",
-      "test": "test build/1 When no filename was given, returns an error"
+      "test": "test build/1 When passing file name return a report"
     },
     {
       "describe": "build/1",
       "file": "/Users/leandro/Desenvolvimento/Elixir/elixir-ignite-template-gerando-rel/test/gen_report_test.exs",
-      "line": 10,
+      "line": 16,
       "module": "Elixir.GenReportTest",
-      "test": "test build/1 When passing file name return a report"
+      "test": "test build/1 When no filename was given, returns an error"
     }
   ],
-  "invalid": [],
-  "passed": [],
   "skiped": []
 }
